@@ -1,0 +1,158 @@
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+</style>
+
+.conteiner{
+    width: 1440px;
+    height: 160;
+    margin: 0 auto;
+    
+}
+/* ჰედერის დასაწყისი */
+.logo{
+  padding-left: 98px;
+}
+
+.headera{
+  font-family: 'Ubuntu';
+font-style: 24px;
+font-weight: 500;
+font-size: 24px;
+line-height: 28px;
+color: #758BFD;
+}
+header{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  height: 160px;
+  align-items: center;
+  background-color: #FFFFFF;
+  margin: 0 auto;
+}
+.headerul{
+  display: flex;
+  gap: 60px;
+  justify-content: space-around;
+  
+}
+
+
+ /* სექტორის დასაწყისი */ 
+
+ section{
+  width: max 100%;
+  width: 1440px;
+  background-color: #DDEAF8;
+  display: flex;
+  align-items: center;
+ }
+ 
+ .card1{
+  width: 30%;
+  height: 333px;
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  border-radius: 11px;
+  gap: 25px;
+  
+
+ }
+
+ h1{
+  display: flex;
+  width: 100%;
+  font-family: 'Ubuntu';
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 37px;
+  color: #27187F;
+  
+
+ }
+ .cards{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 90%;
+  height: 822px;
+  margin: 0 auto;
+  text-align: center;
+}
+.divimage{
+  width: 340px;
+  height: 188px;
+}
+.divtexts{
+  font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+color: #133B3A;
+}
+<!-- /* footer-ის დასაწყისი */ -->
+
+footer {
+  display: flex;
+  width: 1440px;
+  height: 504px;
+  background-color: #758BFD;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.footerdiv {
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  height: 202px;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+.icons {
+display: flex;
+flex-wrap: wrap;
+color: #FFFFFF;
+}
+h2 {
+  font-family: 'Century Gothic';
+  width: 100%;
+  font-size: 20px;
+  color: #00CAD7;
+}
+.footerdiv1 {
+  width: 20%;
+  gap: 12px;
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  
+  
+}
+.maili {
+  font-family: 'Century Gothic';
+  width: 100%;
+  color: white;
+}
+
+.foot_text {
+  font-family: 'Century Gothic';
+  width: 100%;
+  color: white;
+}
+
+.facebook {
+  color: white;
+  font-size: 20px;
+}
+
+.ft_img {
+  width: 80%;
+  display: flex;
+  justify-content: end;
+  gap:5px
+  
+}

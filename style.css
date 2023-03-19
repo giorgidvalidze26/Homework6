@@ -1,0 +1,146 @@
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+</style>
+
+.conteiner{
+    width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+<!-- /* ჰედერის დასაწყისი */ -->
+header{
+    display: flex;
+    width: 1440px;
+    justify-content: space-around;
+    align-items: center;
+    height: 150px;
+    background-color: white;
+}
+.headerul{
+    display: flex;
+    gap: 50px;
+    color: #758BFD;
+}
+
+.header_a{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Ubuntu';
+    color: #758BFD;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+
+}
+.headersearsh{
+    justify-content: end;
+    
+}
+
+<!-- /* სექციის დასაწყისი */ -->
+
+section{
+    width: 1440px;
+    background-color: #DDEAF8;
+    display: flex;
+    align-items: center;
+}
+h1{
+    margin: left 89px;
+    font-size: 32px;
+    color: #27187F;
+    font-family: 'Ubuntu';
+    width: 100%;
+}
+.cards{
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 90%;
+    align-items: center;
+    height: 822px;
+}
+
+
+.card{
+    width: 400px;
+    height: 333px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    border-radius: 15px;
+    gap: 33px;
+}
+.div_img{
+        width: 340px;
+        height: 188px;
+}
+.div_text{
+    font-size: 20px;
+    color: #133B3A;
+    font-family: 'Ubuntu';
+    width: 340px;
+}
+
+<!-- /* footer-ის დასაწყისი */ -->
+footer{
+    width: 1440px;
+    height: 500px;
+    background-color: #758BFD;
+    
+
+}
+.mail{
+    font-size: 15px;
+    font-family: 'Century Gothic';
+    width: 100%;
+    color: white;
+}
+.footer_div{
+    margin: 0 auto;
+    width: 80%;
+    gap: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 202px;
+}
+.icons{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    width: 20%;
+    
+}
+h2{
+    color: #00CAD7;
+    font-family: 'Century Gothic';
+    font-size: 20px;
+    width: 100%;
+}
+.footer_div2{
+    width: 25%;
+    gap: 12px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+.foot_text{
+    font-size: 13px;
+    font-family: 'Century Gothic';
+    width: 100%;
+    color: white;
+}
+.foot_end{
+    width: 80%;
+    display: flex;
+    justify-content: end;
+    gap: 5px;
+    margin-top: 108px;
+}
